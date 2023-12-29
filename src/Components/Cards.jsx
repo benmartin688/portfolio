@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSprings, animated, to as interpolate } from "@react-spring/web";
 import { useDrag } from "react-use-gesture";
-import { cards } from "./cards";
+import { cards } from "../Data/cards";
 
 // CODE ADAPTED FROM https://codesandbox.io/p/sandbox/cards-stack-to6uf?file=%2Fpackage.json%3A18%2C6-18%2C23
 

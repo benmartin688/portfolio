@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
-import Title from "./Title";
-import Navigation from "./Navigation";
-import Tech from "./Tech";
+import Title from "./Components/Title";
+import Navigation from "./Components/Navigation";
+import Cards from "./Components/Cards";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navigation />
       <div className="flex h-screen justify-center items-center">
         <Title />
-        <Tech />
+        <Cards />
       </div>
     </div>
   );
